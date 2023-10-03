@@ -80,6 +80,28 @@ docker run \
 
 ```
 
+## Deploy to fly
+
+- set the following env in fly
+
+```
+REPLICA_URL=s3://
+S3_ACCESS_ID=
+S3_SECRET_KEY=
+S3_REGION=
+ENABLE_LITESTREAM=
+```
+
+- modify the fly.toml
+
+change the changeme's in the fly.toml
+
+- fly deploy
+
+```
+fly deploy
+```
+
 ## FAQ
 
 - how to upgrade
