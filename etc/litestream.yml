@@ -1,0 +1,7 @@
+dbs:
+  - path: /home/node/.n8n/database.sqlite
+    replicas:
+      - url: $REPLICA_URL
+        access-key-id: $S3_ACCESS_ID
+        secret-access-key: $S3_SECRET_KEY
+        region: $S3_REGION
